@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sortify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="sortingicon.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Sorting Visualizer</h1>
+    <div id="controls">
+        <label for="arraySize">Array Size:</label>
+        <input type="range" id="arraySize" name="arraySize" min="3" max="100" value="20">
+        <span id="arraySizeLabel">20</span>
+        <button id="init" class="btn">Shuffle</button>
+    </div>
+    <hr>
+    <div id="container"></div>
+    <hr>
+    <div>
+        <button id="playBubbleSort" class="btn">Bubble Sort</button>
+        <button id="playMergeSort" class="btn">Merge Sort</button>
+        <button id="playQuickSort" class="btn">Quick Sort</button>
+    </div>
+    <hr>
+    <footer id="copyright">
+        &copy; 2024 Hithyshi. All rights reserved.
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
