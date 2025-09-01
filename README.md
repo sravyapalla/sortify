@@ -5,7 +5,7 @@ A web app for visualizing 3 sorting algorithms: **Bubble Sort**, **Quick Sort**,
 ---
 
 ## 🌐 Live Demo
-👉 [Click here to use Sortify](https://hithysh.github.io/Sortify/)
+👉 [Click here to use Sortify](https://sortify-pi.vercel.app/)
 
 ---
 
